@@ -35,3 +35,17 @@ nav a {
 nav a:hover {
   color: gray;
 }
+section {
+  padding: 50px 15px;
+  margin: 20px auto;
+  border-bottom: 1px solid #333;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+section a {
+  color: white;
+}
