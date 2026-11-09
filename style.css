@@ -130,3 +130,4 @@ footer a { color: var(--yellow); }
   .hero-main > *, .orb { animation: none; }
   .pill { transition: none; }
 }
+.contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
