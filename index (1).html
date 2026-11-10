@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anuj Ghimire | AI &amp; Cybersecurity Student</title>
+  <meta name="description" content="Portfolio of Anuj Ghimire, AI student and developer working with Python, Java and cybersecurity.">
+  <script>
+    document.documentElement.classList.add("js");
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+
+    <section class="glass hero" id="home">
+      <div class="topbar">
+        <span class="status"><i></i>Open to work</span>
+        <div class="top-actions">
+          <button class="icon-btn" id="theme" type="button" aria-label="Switch dark or light mode">&#9790;</button>
+          <a class="pill" href="mailto:graccegou@gmail.com">Email me <span class="arrow">&rarr;</span></a>
+        </div>
+      </div>
+
+      <div class="photo">
+        <!-- Change the file name below if you use a different photo -->
+        <img src="6a6678fbab11fb591f8351671d322f76%20(1).jpg" alt="Photo of Anuj Ghimire">
+      </div>
+
+      <div class="intro">
+        <p class="role">AI Student &amp; Developer</p>
+        <h1>Anuj<br>Ghimire</h1>
+        <ul class="contacts">
+          <li><span>&#9993;</span><a href="mailto:graccegou@gmail.com">graccegou@gmail.com</a></li>
+          <li><span>&#128279;</span><a href="https://github.com/anujghimire12" target="_blank" rel="noopener">github.com/anujghimire12</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="glass section reveal" id="live" aria-label="Live status">
+      <h2>Live</h2>
+      <div class="live-grid">
+        <div class="live-card wide">
+          <p class="label">Nepal time (NPT)</p>
+          <p class="digital" id="clock">--:--:--</p>
+          <p class="line" id="date">Loading date...</p>
+        </div>
+        <div class="live-card">
+          <p class="label">Weather &middot; Dharan</p>
+          <p class="num" id="temp">--&deg;C</p>
+          <p class="line" id="wx">Loading weather...</p>
+        </div>
+        <div class="live-card">
+          <p class="label">Location</p>
+          <p class="num">Dharan</p>
+          <p class="line">&#127759; Nepal, Asia</p>
+        </div>
+        <div class="live-card" id="battery-card" hidden>
+          <p class="label">Your device battery</p>
+          <p class="num" id="batt">--%</p>
+          <div class="bar"><i id="battbar"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="glass section reveal" id="about">
+      <h2>Summary</h2>
+      <p class="big">I'm a student who loves technology, AI and cybersecurity, and I learn by building.</p>
+      <p class="muted">I work with Python and Java, and I study how to keep intelligent systems secure.</p>
+    </section>
+
+    <section class="glass section reveal" id="skills">
+      <h2>Skills</h2>
+      <ul class="tiles">
+        <li class="tile"><b class="ico">Py</b><div><h3>Python</h3><p>Programming</p></div></li>
+        <li class="tile"><b class="ico">Jv</b><div><h3>Java</h3><p>Programming</p></div></li>
+        <li class="tile"><b class="ico">AI</b><div><h3>Artificial Intelligence</h3><p>Learning and building</p></div></li>
+        <li class="tile"><b class="ico">Sec</b><div><h3>Cybersecurity</h3><p>Protecting systems and data</p></div></li>
+      </ul>
+    </section>
+
+    <section class="glass section reveal" id="projects">
+      <h2>Projects</h2>
+      <article class="project">
+        <div class="visual" aria-hidden="true"><span>AG</span></div>
+        <div>
+          <h3>This portfolio website</h3>
+          <p class="muted">Designed and built with HTML, CSS and JavaScript, and hosted on GitHub Pages.</p>
+          <a class="pill" href="https://github.com/anujghimire12" target="_blank" rel="noopener">See on GitHub <span class="arrow">&rarr;</span></a>
+        </div>
+      </article>
+      <p class="muted more">More projects coming soon.</p>
+    </section>
+
+    <section class="glass section reveal" id="links">
+      <h2>Links</h2>
+      <div class="link-row">
+        <a class="pill" href="mailto:graccegou@gmail.com">Email <span class="arrow">&rarr;</span></a>
+        <a class="pill" href="https://github.com/anujghimire12" target="_blank" rel="noopener">GitHub <span class="arrow">&rarr;</span></a>
+      </div>
+    </section>
+
+    <footer>&copy; <span id="year">2026</span> Anuj Ghimire</footer>
+  </main>
+
+  <a class="totop" id="totop" href="#home" aria-label="Back to top">&uarr;</a>
+
+  <nav class="dock" aria-label="Main">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#links">Links</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
